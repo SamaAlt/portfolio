@@ -339,3 +339,138 @@ footer p {
         transform: translateY(100vh);
     }
 }
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hero .btn {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+
+    .about h2 {
+        font-size: 2rem;
+    }
+
+    .about p {
+        font-size: 1rem;
+    }
+
+    .skills h2 {
+        font-size: 2rem;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 10px;
+    }
+
+    .skill {
+        padding: 15px;
+    }
+
+    .skill i {
+        font-size: 1.5rem;
+    }
+
+    .skill p {
+        font-size: 1rem;
+    }
+
+    .projects h2 {
+        font-size: 2rem;
+    }
+
+    .portfolio {
+        grid-template-columns: 1fr;
+    }
+
+    .project img {
+        height: 150px;
+    }
+
+    .project-content h3 {
+        font-size: 1.2rem;
+    }
+
+    .project-content p {
+        font-size: 0.9rem;
+    }
+
+    .project-content a {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+
+    .experience h2 {
+        font-size: 2rem;
+    }
+
+    .experience-item h3 {
+        font-size: 1.5rem;
+    }
+
+    .experience-item .company {
+        font-size: 1rem;
+    }
+
+    .experience-item ul li {
+        font-size: 0.9rem;
+    }
+
+    .education h2 {
+        font-size: 2rem;
+    }
+
+    .education-item h3 {
+        font-size: 1.2rem;
+    }
+
+    .education-item .institution {
+        font-size: 1rem;
+    }
+
+    .certifications h2 {
+        font-size: 2rem;
+    }
+
+    .certifications ul li {
+        font-size: 0.9rem;
+    }
+
+    footer .social-links a {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+        margin: 5px 0;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+
+    .matrix-rain span {
+        font-size: 1rem;
+    }
+}
