@@ -288,6 +288,34 @@ footer p {
     font-size: 1rem;
 }
 
+/* Profile Picture Section */
+.profile-picture {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.picture-container {
+    display: inline-block;
+    border: 3px solid #00ff00;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0 0 20px #00ff00;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.picture-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px #00ff00;
+}
+
+.picture-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+
 @media (max-width: 768px) {
     .portfolio {
         grid-template-columns: 1fr;
