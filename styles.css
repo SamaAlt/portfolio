@@ -65,6 +65,8 @@ header p {
 
 .about {
     padding: 50px 0;
+    background-color: rgba(17, 17, 17, 0.7);
+
 }
 
 .about h2 {
@@ -75,16 +77,16 @@ header p {
 
 .about p {
     font-size: 1.2rem;
-    text-align: center;
+    text-align: left;
 }
 
 .skills {
-    padding: 50px 0;
+    padding: 20px 0;
 }
 
 .skills h2 {
     font-size: 2.5rem;
-    text-align: center;
+    text-align: left;
     margin-bottom: 40px;
 }
 
@@ -182,7 +184,7 @@ header p {
 
 .experience {
     padding: 50px 0;
-    background-color: rgba(17, 17, 17, 0.7);
+    background-color: rgba(29, 29, 29, 0.7);
 }
 
 .experience h2 {
